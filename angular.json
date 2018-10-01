@@ -123,5 +123,10 @@
       }
     }
   },
-  "defaultProject": "CPS731-Project-Angular"
+  "defaultProject": "CPS731-Project-Angular",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }
