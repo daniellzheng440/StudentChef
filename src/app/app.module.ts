@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { AppMaterialModule } from './core/app-material/app-material.module';
-
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
@@ -11,6 +11,8 @@ import { AppMaterialModule } from './core/app-material/app-material.module';
   ],
   imports: [
     BrowserModule,
+    AppMaterialModule,
+    FlexLayoutModule,
     AppMaterialModule
   ],
   providers: [],
